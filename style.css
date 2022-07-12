@@ -1,0 +1,331 @@
+    /* ===========================
+          all Common CSS                
+    ============================= */
+    body{
+        margin: 0%;
+    }
+    h2{
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h3{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 40px;
+        color: #020024;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h5{
+        font-size: 30px;
+        font-family:sans-serif;
+    }
+    h6{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    p{
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    /* ===========================
+            end Common CSS                
+     ============================= */
+
+
+    /* ===========================
+        Header part start               
+    ============================= */
+
+    .main-section{
+        background-size: 100%;
+        padding-top: 5px;
+        padding-bottom: 10%;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1),black),url(images/donation6.jpg);
+    }
+
+    .text-overlay{
+        text-align: center;
+        padding-top: 10%;
+        color: honeydew;
+    }
+
+    .Muhammad{
+        color: #fdbb2d;
+    }
+
+    .top-link{
+        text-decoration: none;
+        background-image: linear-gradient(orange,red);
+        border-radius: 15px;
+        color: antiquewhite;
+        padding: 15px 25px;
+    }
+
+    /* ===========================
+         Header part end               
+    ============================= */
+
+    /* ===========================
+        donate part start               
+    ============================= */
+    .container-blog{
+        text-align: center;
+    }
+
+    .table{
+        display: flex;
+        padding-left: 25%;
+    }
+
+    .item{
+        padding: 5px 10px;
+        margin: 5px 10px;
+        box-shadow: 1px 1px 5px;
+        border-radius: 10px;
+    }
+    #color{
+        background-image: linear-gradient(#778025,#8ad2d1);
+        border: 2px solid #802530;
+        color:#512580;
+    }
+    .ammount{
+        text-align: center;
+    }
+
+    .enter_donate_ammount input{
+        text-align: center;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding-right: 30%;
+        padding-left: 30%;
+    }
+
+    .unlimited{
+        padding-top:2%;
+    }
+
+    .enter_donate_ammount{
+        margin-top: 15px;
+         padding: 20px;
+    }
+
+    .link{
+        text-decoration: none;
+        padding: 10px 20px;
+        background-image: linear-gradient(#fd2d5e,#fdbe1d);
+        border-radius: 10px ;
+    }
+    /* ===========================
+        donate part end                 
+    ============================= */
+
+    /* ===========================
+        danate plan part start                 
+    ============================= */
+    .third-container{
+        text-align: center;
+    }
+
+    .firth-container{
+        display: flex;
+        margin:0% 10%;
+        border-radius: 10px;
+    }
+
+    .cornflowerblue{
+        background-color: cornflowerblue;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .cadetblue{
+        background-color: cadetblue;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .bisque{
+        background-color: bisque;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    /* ===========================
+        danate plan part end                 
+    ============================= */
+        
+    /* ===========================
+        lives depend part start                 
+    ============================= */
+    .sixth-container{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 25%;
+        font-family:sans-serif;
+    }
+
+    .first-text{
+        width: 120%;
+        height: 50%;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sceond-pic img{
+        width: 140%;
+        height: 120%;
+        margin-left: 30%;
+        border-radius: 10%;
+    }
+
+    .first-text a{
+        text-decoration: none;
+        padding: 10px 25px;
+        background-image: linear-gradient(green,yellow);
+        color:brown;
+        border-radius: 5px;
+    }
+
+    /* ===========================
+        lives depend part end                 
+    ============================= */
+    /* ===========================
+        need us depend part start                 
+    ============================= */
+    .bonus{
+        font-family: 'Courgette', cursive;
+    }
+    .seventh-container{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right:10%;
+
+    }
+
+    .first-pic img{
+        width: 150%;
+        height: 120%;
+        margin-left: 5%;
+        border-radius: 10%;
+    }
+
+    .sceond-text{
+        width: 100%;
+        height: 80%;
+        margin-left: 30%;
+        border-radius: 10%;
+    }
+
+    .sceond-text a{
+        text-decoration: none;
+        padding: 10px 25px;
+        background-image: linear-gradient(skyblue,red);
+        color:burlywood;
+        border-radius: 5px;
+    }
+
+    /* ===========================
+        need us depend part end                 
+    ============================= */
+    /* ===========================
+        About Us part start                 
+    ============================= */
+    .about-container{
+        background-color:azure;
+        margin-top: 10%;
+        padding-top: 5%;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+    #display{
+        display: flex;
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: aquamarine;
+        border-radius: 15px;
+    }
+
+    .half-width {
+        width: 50%;
+        margin-left: 10%;
+        
+    }
+    .half-width a{
+        text-decoration: none;
+        background-image: linear-gradient(white,orange);
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .half-width img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    /* ===========================
+        About Us part end                 
+    ============================= */
+
+    /* ===========================
+        Get's update part start                 
+    ============================= */        
+    .eight-continer{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .font{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .address{
+        padding: 50px 60px;
+        margin: 5px 20%;
+        background-image: linear-gradient(white,yellow);
+        margin-bottom: 20%;
+    }
+
+    .subcribe{
+        background-image:linear-gradient(#dec8ab,#005757);
+        padding: 10px 20px;
+        border:0px;
+    }
+
+    .email{
+        padding: 10px 20px;
+        border:0px;background-image: linear-gradient(#ff94c9,#a8a800);
+        color: #c7a170;
+    }
+
+    /* ===========================
+        Get's update part end                 
+    ============================= */  
+
+    /* ===========================
+        footer part start                 
+    ============================= */        
+
+    .Footer{
+        text-align: center;
+        margin: 0%;
+        background-color: black;
+        padding: 1%;
+        color: #fd2d5e;
+    }
+    .Footer h6{
+        font-style: italic;
+    }
+
+    /* ===========================
+        footer part end                 
+    ============================= */        
